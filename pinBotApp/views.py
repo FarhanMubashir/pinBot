@@ -5,6 +5,7 @@ from selenium.webdriver.chrome.options import Options
 from fake_useragent import UserAgent
 import time
 from selenium.webdriver.common.by import By
+from webdriver_manager.chrome import ChromeDriverManager
 
 # Create your views here.
 
@@ -21,7 +22,7 @@ def apicall(request):
     ua = UserAgent()
     userAgent = ua.random
     options.add_argument(f'user-agent={userAgent}')
-    driver = webdriver.Chrome()
+    driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get("https://www.nmc.org.uk/registration/search-the-register/")
 
     element = driver.find_element('id','PinNumber')
