@@ -33,6 +33,7 @@ def apicall(request):
     chrome_options.add_argument('--disable-gpu')
     chrome_options.add_argument("window-size=1024,768")
     chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("download.default_directory=C:/Downloads")
     driver = webdriver.Chrome(chrome_options=chrome_options)
 
 
@@ -61,8 +62,10 @@ def apicall(request):
         download = driver.find_element(by=By.XPATH, value='//*[@id="main"]/div/div/div/div[2]/ul/li[2]/a')
         time.sleep(2)
 
-        # download.click()
-        # print(download.text,'________download')
+        download.click()
+        print(download.text,'________download')
+
+        time.sleep(3)
 
         name = driver.find_element(by=By.XPATH, value='//*[@id="main"]/div/div/div/div[3]/div[1]/dl[1]/dd').text
 
