@@ -1,0 +1,47 @@
+1659955234981	geckodriver	INFO	Listening on 127.0.0.1:50756
+1659955238025	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "download.default_directory=C:/Downloads" "--headless" "--disable-gpu" "window-size=1024,768" "--no-sandbox" "--remote-debugging-port" "50757" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Farhan\\AppData\\Local\\Temp\\rust_mozprofileyxEmA5"
+*** You are running in headless mode.
+1659955307260	geckodriver	INFO	Listening on 127.0.0.1:50805
+1659955310344	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "download.default_directory=C:/Downloads" "--headless" "--disable-gpu" "window-size=1024,768" "--remote-debugging-port" "50806" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Farhan\\AppData\\Local\\Temp\\rust_mozprofileDKUbQc"
+*** You are running in headless mode.
+1659955310914	Marionette	INFO	Marionette enabled
+1659955310921	Marionette	INFO	Listening on port 50815
+WebDriver BiDi listening on ws://localhost:50806
+Read port: 50815
+1659955311797	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Farhan\\AppData\\Local\\Temp\\rust_mozprofileDKUbQc\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50806/devtools/browser/25895016-6374-4b66-90ee-6daa1e9d7771
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.nmc.org.uk"
+1659955381158	geckodriver	INFO	Listening on 127.0.0.1:50936
+1659955384185	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50937" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Farhan\\AppData\\Local\\Temp\\rust_mozprofilebTXgip"
+1659955384793	Marionette	INFO	Marionette enabled
+1659955384803	Marionette	INFO	Listening on port 50946
+WebDriver BiDi listening on ws://localhost:50937
+Read port: 50946
+Read port: 50946
+1659955386396	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Farhan\\AppData\\Local\\Temp\\rust_mozprofilebTXgip\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50937/devtools/browser/85751996-edca-436e-9ba5-1ade6bbf1060
+1659955403214	Marionette	INFO	Stopped listening on port 50946
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1659955413828	geckodriver	INFO	Listening on 127.0.0.1:50995
+1659955416856	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50996" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Farhan\\AppData\\Local\\Temp\\rust_mozprofileG6nF6a"
+1659955417705	Marionette	INFO	Marionette enabled
+1659955417711	Marionette	INFO	Listening on port 51005
+WebDriver BiDi listening on ws://localhost:50996
+Read port: 51005
+1659955418973	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Farhan\\AppData\\Local\\Temp\\rust_mozprofileG6nF6a\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50996/devtools/browser/67fb6725-3af1-4cca-9906-6fe4f37abdcd
+1659955425725	Marionette	INFO	Stopped listening on port 51005
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/JSONFile.jsm, line 184: Error: Data is not ready.
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 720: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "DoHController: clear state and remove observers"

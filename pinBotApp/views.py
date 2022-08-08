@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from selenium import webdriver
 from selenium.webdriver.support.wait import WebDriverWait
-from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.firefox.options import Options
 from fake_useragent import UserAgent
 import time
 from selenium.webdriver.common.by import By
@@ -25,15 +25,15 @@ def apicall(request):
     options.add_argument(f'user-agent={userAgent}')
 
 
-    chrome_options = Options()
+    options = Options()
 
 
-    chrome_options.add_argument("download.default_directory=C:/Downloads")
-    chrome_options.add_argument('--headless')
-    chrome_options.add_argument('--disable-gpu')
-    chrome_options.add_argument("window-size=1024,768")
-    chrome_options.add_argument("--no-sandbox")
-    driver = webdriver.Chrome(chrome_options=chrome_options)
+    options.add_argument("download.default_directory=C:/Downloads")
+    options.add_argument('--headless')
+    options.add_argument('--disable-gpu')
+    options.add_argument("window-size=1024,768")
+    driver = webdriver.Firefox(options=options)
+
 
 
     driver.get("https://www.nmc.org.uk/registration/search-the-register/")
